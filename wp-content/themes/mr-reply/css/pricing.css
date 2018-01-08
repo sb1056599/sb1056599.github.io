@@ -1,0 +1,38 @@
+#pricingContainer #pricing-slider {
+    margin: 0 20px;
+}
+
+#pricingContainer #pricing-slider .noUi-connect {
+    background: #5dda89;
+}
+
+#pricingContainer .panel-heading h3 {
+    font-family: "Catamaran", sans-serif;
+    color: #333333;
+}
+
+#pricingContainer .panel-primary .panel-heading h3 {
+    font-family: "Catamaran", sans-serif;
+    color: #ffffff;
+}
+
+#pricingContainer .accentText {
+    color: #777777;
+    font-size: 15px;
+}
+
+#pricingContainer .panel-subtitle {
+    background: #f3f3f3;
+    color: #000000;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 768px) {
+    #pricingContainer > .container > .row > div{
+        min-height: 700px;
+        vertical-align: middle;
+    }
+    #pricingContainer > .container > .row > div:first-child{
+        /*top: 100px;*/
+    }
+}

@@ -1,0 +1,599 @@
+/*
+Theme Name: Mr. Reply
+Theme URI: https://wordpress.org/themes/twentysixteen/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Twenty Sixteen is a modernized take on an ever-popular WordPress layout — the horizontal masthead with an optional right sidebar that works perfectly for blogs and websites. It has custom color options with beautiful default color schemes, a harmonious fluid grid using a mobile-first approach, and impeccable polish in every detail. Twenty Sixteen will make your WordPress look beautiful everywhere.
+Version: 10
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, blog
+Text Domain: twentysixteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.container-nav ,
+.center-container {
+    width: 100% !important;
+}
+#wrapper {
+    /*max-width: 1420px !important;*/
+    width: 100% !important;
+    min-width: unset !important;
+    min-width: intial !important;
+}
+.hero .robot-block{
+    width: 100% !important;
+    max-width: 890px;
+}
+.block-sms-message .left-block {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.navbar{
+    margin-bottom: 0px !important;
+}
+/*-------MEDIA QUERY -------*/
+
+@media screen and (max-width: 480px)  {
+    .block-tags-message .dream > div{
+        width: 130px;
+        margin: 0px !important;
+        background-size: 100% auto !important;
+    } 
+
+
+    .block-tags-message .person-tag + .person-tag{
+        margin-left: 35px;
+    }
+
+    .hero-section .day {
+        font-size: 13px;
+        padding: 3px 10px 3px;
+    }
+    .block-sms-message  .right-block.sms-section{
+        overflow: hidden;
+    }
+    body  .navbar-brand .home-link{
+        font-size: 18px;
+    }
+    body  #wrapper .button.get-strd {
+        display: inline-block;
+        float: right;
+        margin-top: 12px !important;
+        padding: 5px 8px;
+        font-size: 12px !important;
+        margin-left: 38%;
+    }
+    body    #wrapper .navbar-brand {
+        padding: 7px 10px;
+        z-index: 120111;
+        padding-left: 0px;
+    }
+    body   .navbar-brand .logo {
+        display: inline-block;
+        height: auto;
+        max-width: 100px;
+        padding-right: 2px;
+    }
+    body .navbar-brand .home-link{
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 640px)  {
+    body  .hero .robot-block .person.men-right {
+        left: 66%;
+    }
+    body  .hero .robot-block .person.girl-left {
+        right: 66%;
+    }
+    body  .hero .robot-block .person.men-left {
+        margin-right: 140px;
+    }
+    body  .hero .robot-block .person.girl-right {
+        margin-left: 140px;
+    }
+
+}
+@media screen and (min-width: 480px) and (max-width: 736px)  {
+    body  #wrapper .button.get-strd {
+        font-size: 14px !important;
+    }  
+
+}
+
+
+@media screen and (max-width: 736px) {
+    #menu_my_bootstrap_menu_settings_primary_outer_list{
+        margin-top: 10px;
+    }
+    .pull-right {
+        width: 100%;
+    }
+    .left-block, .right-block {
+        display: inline-block;
+        vertical-align: top;
+        width: 100%;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        max-width: unset;
+    }
+    .companies-block table td{
+        width: 100%;
+        float: left;
+    }
+    .hero .robot-block .arrows{
+        width: 100%;
+        max-width: 505px;
+    }
+    .hero .robot-block .person.girl-right ,
+    .hero .robot-block .person.men-right ,
+    .hero .robot-block .person.men-top,
+    .hero .robot-block .person.men-left {
+        width: 50px;
+    }
+    .hero .robot-block .person.robot{
+        width:100px;  
+    }
+    .hero .robot-block .person.girl-right{
+        margin-left: 90px;
+    }
+    .hero .robot-block .person.men-left{
+        margin-right: 90px;  
+    }
+    .hero .robot-block .person.men-right{
+        margin-left: 100px;
+    }
+    .hero .robot-block .person.girl-left {
+        margin-right: 100px;
+        right: 55%;
+        top: 190px;
+        width: 50px;
+    }
+    .hero .robot-block .person.girl-left{
+        right: 47%;
+    }
+    .hero .robot-block .person.men-right {
+        left: 47%;
+        top: 190px;
+    }
+    .hero .robot-block .arrows .arc-line.right {
+        bottom: 100px;
+        right: 70px;
+    }
+    .hero .robot-block .arrows .arc-line.left {
+        bottom: 100px;
+        left: 70px;
+    }
+    .navbar-nav > li > a {
+        color: #65656f;
+        font-weight: bold;
+        line-height: 45px;
+        padding: 0 10px;
+        font-size: 18px;
+    }
+    .navbar-nav > li .button{
+        margin-left: 0px;
+    }
+    .navbar.navbar-fixed-top {
+        padding: 10px 0;
+    }
+    .block-sms-message .sms-section .men-coins .coins {
+        bottom: 276px;
+        height: auto;
+        position: absolute;
+        right: 0px;
+        width: 50%;
+    }
+    .hero .robot-block{
+        height: 344px;
+    }
+    .hero .robot-block .arrows .arc-line.right-bot {
+        bottom: 65px;
+        right: 16px;
+    }
+    .hero .robot-block .arrows .arc-line.left-bot {
+        bottom: 65px;
+        left: 16px;
+    }
+    #wrapper .navbar {
+        margin-bottom: 0;
+        padding: 60px 0;
+        transition: all 0.15s ease 0s;
+        background: none !important;
+        padding: 0px;
+        border: 0px !important;
+background: #edf9fd none repeat scroll 0 0 !important;
+    }
+    #wrapper .navbar .button{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .container-fluid #navbar  {
+        background: #fff;
+    }
+    .navbar .container-nav {
+        width: 100%;
+        float: left;
+    }
+    .block-sms-message .sms-section .loading-range .open-rate, .block-sms-message .sms-section .loading-range .cost{
+        width: 28%;
+    }
+    .block-sms-message .right-block.sms-section .loading-range {
+        text-align: center;
+    }
+    .center-container   .right-block.sms-section{
+        margin-top: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .block-features .item + .item{
+        margin-left: 0px;
+    }
+    .companies-block {
+        background-color: #effaff;
+        margin-top: 0px;
+        padding-bottom: 25px;
+        padding-top: 50px;
+    }
+    .companies-block table td:first-child{
+        height: auto;
+    }
+    .block-hero-message{
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .block-tags-message{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .block-sms-message .sms-section .men-coins{
+        padding-left: 0px;
+    }
+    .hero .robot-block .person.men-top{
+        top: 40px;
+    }
+    .block-sms-message .load-yellow{
+        width: 100%;
+    }
+
+    .horizontal-draw-line.first ,
+    .horizontal-draw-line.second {
+        width: 10%;
+    }
+    .block-sms-message .sms-section .loading-range .range-image {
+        width: 85px;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #ddd;
+        position: absolute;
+        top: -50px;
+        right: 0px;
+        margin-right: 0px;
+    }
+    #wrapper .button.get-strd {
+        display: inline-block;
+        float: none;
+        margin-top: 12px !important;
+        padding: 5px 8px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        max-width: 100px;
+        z-index: 1200;
+    }
+    #wrapper .navbar-brand {
+        padding: 15px 10px;
+    }
+    .block-features .item{
+        padding: 10px;
+    }
+}
+
+
+
+
+
+    .container-nav, .center-container
+    {
+        max-width: 1110px;
+    }
+
+
+/*---- new css -----*/
+@media screen and (max-width: 736px) and (min-width: 300px) {
+    .hero .title {
+        margin-bottom: 40px;
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .hero .robot-block .person.girl-left ,
+    .hero .robot-block .arrows .arc-line.left-bot ,
+    .hero .robot-block .person.men-right ,
+    .hero .robot-block .arrows .arc-line.right-bot,
+    .global-big-animation .big-animation-5,
+    .global-big-animation .big-animation-6,
+    .run-animate-1 .big-animation-1
+    {
+        display: none;
+    }
+    .hero .robot-block .person.robot {
+        width: 130px;
+    }
+    .hero .robot-block .person.robot {
+        bottom: 85px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .center-container h2,
+    .large-title {
+        font-size: 22px;
+        line-height: 28px; 
+    }
+    .text-section p ,
+    .block-features .item p ,
+    .banner .inner-text p{
+        text-align: justify;
+    }
+
+    .block-sms-message .sms-section::after ,
+    .block-sms-message .sms-section::before {
+        top: 2px;
+    }
+    .block-sms-message .sms-section .loading-range{
+        margin-bottom: 40px;
+    }
+    .block-tags-message .image-hero .robot{
+        max-width: 130px;
+    }
+    .block-tags-message .men-slide, .block-tags-message .women-slide {
+        height: 95px;
+        margin: 0 auto;
+        width: 85px;
+    }
+    .block-tags-message .men-slide, .block-tags-message .women-slide {
+        background-size: 200% auto !important;
+    }
+    .block-tags-message .men-slide {
+        background: rgba(0, 0, 0, 0) url("https://mrreply.com/wp-content/themes/images/men-sprite-slide-4.png") no-repeat scroll -85px 0;
+    }
+    .block-tags-message .women-slide {
+        background: rgba(0, 0, 0, 0) url("https://mrreply.com/wp-content/themes/images/women-sprite-slide-4.png") no-repeat scroll -85px 0;
+    }
+    .block-tags-message .women-slide.run{
+        background: rgba(0, 0, 0, 0) url("https://mrreply.com/wp-content/themes/images/women-sprite-slide-4.png") no-repeat scroll 0 0;  
+    }
+    .block-tags-message .dream > div{
+        width: 95px;
+    }
+    .block-features{
+        margin-bottom: 20px;
+    }
+
+    .banner {
+        padding: 40px 10px 40px;
+    }
+    .companies-block table tr:first-child td:nth-child(1) span, .companies-block table tr:first-child td:nth-child(1) span{
+        font-size: 22px;
+    }
+    .block-features .large-title{
+        margin-bottom: 0px;
+    }
+    .center-container .right-block.sms-section{
+        padding-top: 30px;
+    }
+    .button {
+        margin-top: 15px;
+        padding: 10px 30px;
+        float: none;
+        margin: 0 auto;
+    }
+    .block-sms-message .left-block{
+        margin-top: 0px;
+    }
+    .text-section{
+        text-align: center;
+    }
+    .hero{
+        padding-bottom: 50px;
+    }
+    .block-sms-message .left-block{
+        padding-top: 5px;
+    }
+    #hearts-third{
+        display: none;
+    }
+    .hero .robot-block {
+        margin: 60px auto 0 auto;
+    }
+}
+
+/*-------- new css 16-12-2016 ------*/
+.hero .robot-block{
+    background: none;
+    margin-top: 0px;
+}
+.block-features .item .image{
+    background: none !important;
+    padding: 0px !important;
+}
+.gif-images{
+    width: 100%;
+    max-width: 650px;
+}
+.block-sms-message .sms-section::before ,
+.block-sms-message .sms-section::after {
+    display: none;
+}
+.block-features .item .image{
+    height: unset;
+    margin-bottom: 0px;
+    min-height: 215px;
+}
+body .hero .robot-block{
+    height: intial !important;
+}
+.hero .scroll{
+    z-index: 999;
+}
+.scroll.button {
+    background:  url("https://mrreply.com/wp-content/themes/mr-reply/images/arrow_down.png") no-repeat scroll center center / 24px 12px !important;
+    background-color: #fff !important;
+}
+
+.hero .robot-block .gif-images {
+    max-width: 850px;
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+    .block-features .item {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 32%;
+        margin: 0px !important;
+    }  
+}
+
+@media screen and (max-width: 1920px) and (min-width: 768px) {
+    #wrapper .navbar-nav > li:last-child {
+        margin-top: 10px;
+    }
+    #wrapper .navbar-nav > li:last-child a{
+        color: #14aaf4;
+        font-family: "Catamaran";
+        font-size: 17px;
+        padding: 4px 27px;
+        margin-left: 25px;
+        display: inline-block;
+        max-width: 400px;
+        background-color: #ffffff;
+        box-shadow: 2px 2px 0 0 #14aaf4;
+        border: solid 1px #14aaf4;
+        color: #14aaf4;
+        font-family: "Catamaran";
+        font-size: 17px;
+        letter-spacing: 0.3px;
+        -webkit-transition: all 0.25s ease-in-out;
+        -moz-transition: all 0.25s ease-in-out;
+        -ms-transition: all 0.25s ease-in-out;
+        -o-transition: all 0.25s ease-in-out;
+        transition: all 0.25s ease-in-out;
+        font-weight: bold;
+    }
+}
+/*------ new css 21-12-2016 -------*/
+
+#wrapper .hero ,
+#wrapper  .navbar {
+    background: #edf9fd none repeat scroll 0 0;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    body .hero .robot-block{
+        height: intial !important;
+    }
+    .scroll.button {
+        background: url("https://mrreply.com/wp-content/themes/mr-reply/images/arrow_down.png") no-repeat scroll center center / 24px 12px !important;
+        background-color: white !important;
+    }
+} 
+
+#menu-footer-menu{
+    padding: 0;
+    list-style: none;
+}
+#menu-footer-menu li{
+    float: left;
+    margin-left: 60px;
+}
+#menu-footer-menu li:first-child{
+    margin-left: 0;
+}
+/* ============================================================
+  CUSTOM PAGINATION
+============================================================ */
+.custom-pagination span,
+.custom-pagination a {
+    display: inline-block;
+    padding: 2px 10px;
+}
+.custom-pagination {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.custom-pagination a {
+    background-color: #ebebeb;
+    color: #5d79a1;
+}
+.custom-pagination a:hover {
+    background-color: #ff3c50;
+    color: #fff;
+}
+.custom-pagination span.page-num {
+    margin-right: 10px;
+    padding: 0;
+}
+.custom-pagination span.dots {
+    padding: 0;
+    color: gainsboro;
+}
+.custom-pagination span.current {
+    background-color:#5d79a1;
+    color: #fff;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+.navbar-brand .logo {
+    min-width: 180px;
+}
+.navbar-default .navbar-nav li a{
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+#wrapper .navbar.navbar-default{
+    padding: 0;
+    border: none;
+}
+
+
+.custom-page-header{
+    color: #333333;
+    padding-top: 40px;
+    font-size: 36px;    
+    padding-bottom: 20px;
+    font-family: "Catamaran", sans-serif;
+}
+
+@media screen and (min-width: 769px) {
+    .v-align-sm{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .v-align-sm > [class^="col-"],
+    .v-align-sm > [class*=" col-"] {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+footer {
+    background-color: #1d1d24;
+}
+
+footer a:hover, footer a:active, footer a:visited{
+    text-decoration: none;
+}
+
+
+#menu-main-menu{
+background: #fff;
+}
